@@ -123,13 +123,13 @@ ex =[[[1,2,3],[1,2,3]],
 
 # 3. Exploratory Data Analysis
 ## 1. Understanding Yor Data :
-How Big Data = df.shape
-Look our data =df.sample(5)
-type of columns an info = df.info()
-missing Values = df.isnull().sum()
-data Staticstic = df.describe()
-find Dupicate values= df.duplicated().sum()
-coreelation = df.corr()['columnname'] - find relation with other columsn if relation then drop columns 
+- How Big Data = df.shape
+- Look our data =df.sample(5)
+- type of columns an info = df.info()
+- missing Values = df.isnull().sum()
+- data Staticstic = df.describe()
+- find Dupicate values= df.duplicated().sum()
+- coreelation = df.corr()['columnname'] - find relation with other columsn if relation then drop columns 
 
 ## 2. EDA (Exploratory data analysis)
 	1) Univariate
